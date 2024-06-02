@@ -13,6 +13,7 @@
 
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-		return new Response('Love you my cutie bubu <3');
+		return new Response('hello hono');
 	},
 };
+
